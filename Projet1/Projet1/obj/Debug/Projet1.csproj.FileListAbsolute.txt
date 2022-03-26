@@ -9,3 +9,14 @@ c:\users\kouevidjin miguel\documents\visual studio 2012\Projects\Projet1\Projet1
 c:\users\kouevidjin miguel\documents\visual studio 2012\Projects\Projet1\Projet1\obj\Debug\Projet1.pdb
 c:\users\kouevidjin miguel\documents\visual studio 2012\Projects\Projet1\Projet1\obj\Debug\Projet1.frmApropos.resources
 c:\users\kouevidjin miguel\documents\visual studio 2012\Projects\Projet1\Projet1\obj\Debug\Projet1.frmAccueil.resources
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet1\Projet1\bin\Debug\Projet1.exe.config
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet1\Projet1\obj\Debug\Projet1.exe
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet1\Projet1\obj\Debug\Projet1.pdb
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet1\Projet1\bin\Debug\Projet1.exe
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet1\Projet1\bin\Debug\Projet1.pdb
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet1\Projet1\obj\Debug\Projet1.csprojResolveAssemblyReference.cache
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet1\Projet1\obj\Debug\Projet1.FrmCalculatrice.resources
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet1\Projet1\obj\Debug\Projet1.frmApropos.resources
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet1\Projet1\obj\Debug\Projet1.frmAccueil.resources
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet1\Projet1\obj\Debug\Projet1.Properties.Resources.resources
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet1\Projet1\obj\Debug\Projet1.csproj.GenerateResource.Cache

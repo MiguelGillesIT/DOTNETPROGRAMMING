@@ -1,0 +1,12 @@
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\bin\Debug\Projet2.exe.config
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\bin\Debug\Projet2.exe
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\bin\Debug\Projet2.pdb
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\obj\Debug\Projet2.csprojResolveAssemblyReference.cache
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\obj\Debug\Projet2.FrmMenu.resources
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\obj\Debug\Projet2.FrmFactoriel.resources
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\obj\Debug\Projet2.FrmTables.resources
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\obj\Debug\Projet2.FormGame.resources
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\obj\Debug\Projet2.Properties.Resources.resources
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\obj\Debug\Projet2.csproj.GenerateResource.Cache
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\obj\Debug\Projet2.exe
+D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\obj\Debug\Projet2.pdb

@@ -31,7 +31,9 @@ namespace Projet1
         {
             frmAccueil acc = new frmAccueil();
             acc.Show();
-            this.Close();
+            this.Hide();
+            
+            
         }
     }
 }
