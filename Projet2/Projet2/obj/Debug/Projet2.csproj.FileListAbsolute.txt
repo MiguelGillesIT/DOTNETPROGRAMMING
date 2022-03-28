@@ -10,3 +10,15 @@ D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\obj\Debug\Proj
 D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\obj\Debug\Projet2.csproj.GenerateResource.Cache
 D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\obj\Debug\Projet2.exe
 D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet2\Projet2\obj\Debug\Projet2.pdb
+C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\bin\Debug\Projet2.exe.config
+C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\obj\Debug\Projet2.exe
+C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\obj\Debug\Projet2.pdb
+C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\bin\Debug\Projet2.exe
+C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\bin\Debug\Projet2.pdb
+C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\obj\Debug\Projet2.csprojResolveAssemblyReference.cache
+C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\obj\Debug\Projet2.FrmMenu.resources
+C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\obj\Debug\Projet2.FrmFactoriel.resources
+C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\obj\Debug\Projet2.FrmTables.resources
+C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\obj\Debug\Projet2.FormGame.resources
+C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\obj\Debug\Projet2.Properties.Resources.resources
+C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\obj\Debug\Projet2.csproj.GenerateResource.Cache

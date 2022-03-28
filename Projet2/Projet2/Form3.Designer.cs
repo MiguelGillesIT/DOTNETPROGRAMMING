@@ -69,9 +69,9 @@
             this.LblT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblT.Location = new System.Drawing.Point(180, 85);
             this.LblT.Name = "LblT";
-            this.LblT.Size = new System.Drawing.Size(71, 20);
+            this.LblT.Size = new System.Drawing.Size(15, 20);
             this.LblT.TabIndex = 3;
-            this.LblT.Text = "1 | 3 | 5";
+            this.LblT.Text = "|";
             // 
             // BtnEnreg
             // 
@@ -89,6 +89,7 @@
             this.TxtN.Name = "TxtN";
             this.TxtN.Size = new System.Drawing.Size(55, 23);
             this.TxtN.TabIndex = 1;
+            this.TxtN.TextChanged += new System.EventHandler(this.TxtN_TextChanged);
             // 
             // LblRes
             // 
@@ -99,6 +100,7 @@
             this.LblRes.Size = new System.Drawing.Size(141, 13);
             this.LblRes.TabIndex = 1;
             this.LblRes.Text = "Entrez la note de l\'éleve N° :";
+            this.LblRes.Click += new System.EventHandler(this.LblRes_Click);
             // 
             // groupBox2
             // 
@@ -127,6 +129,7 @@
             this.BtnQ.TabIndex = 9;
             this.BtnQ.Text = "Quitter";
             this.BtnQ.UseVisualStyleBackColor = true;
+            this.BtnQ.Click += new System.EventHandler(this.BtnQ_Click);
             // 
             // BtnCalc
             // 
@@ -137,6 +140,7 @@
             this.BtnCalc.TabIndex = 8;
             this.BtnCalc.Text = "Calculer";
             this.BtnCalc.UseVisualStyleBackColor = true;
+            this.BtnCalc.Click += new System.EventHandler(this.BtnCalc_Click);
             // 
             // LblSup
             // 
@@ -147,7 +151,6 @@
             this.LblSup.Name = "LblSup";
             this.LblSup.Size = new System.Drawing.Size(87, 23);
             this.LblSup.TabIndex = 7;
-            this.LblSup.Text = "3";
             this.LblSup.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LblInf
@@ -159,7 +162,6 @@
             this.LblInf.Name = "LblInf";
             this.LblInf.Size = new System.Drawing.Size(87, 23);
             this.LblInf.TabIndex = 6;
-            this.LblInf.Text = "2";
             this.LblInf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LblEcart
@@ -170,7 +172,6 @@
             this.LblEcart.Name = "LblEcart";
             this.LblEcart.Size = new System.Drawing.Size(87, 23);
             this.LblEcart.TabIndex = 5;
-            this.LblEcart.Text = "10.193454";
             this.LblEcart.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LblMoy
@@ -181,7 +182,6 @@
             this.LblMoy.Name = "LblMoy";
             this.LblMoy.Size = new System.Drawing.Size(87, 23);
             this.LblMoy.TabIndex = 4;
-            this.LblMoy.Text = "11";
             this.LblMoy.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblMoy.Click += new System.EventHandler(this.label7_Click);
             // 
@@ -231,6 +231,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmTables";
+            this.Text = "Les Tableaux";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
