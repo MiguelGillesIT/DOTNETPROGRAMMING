@@ -22,3 +22,27 @@ C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\obj\Debug\Projet2.FrmTables.r
 C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\obj\Debug\Projet2.FormGame.resources
 C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\obj\Debug\Projet2.Properties.Resources.resources
 C:\Users\KOUEVIDJIN MIGUEL\Desktop\Projet2\Projet2\obj\Debug\Projet2.csproj.GenerateResource.Cache
+E:\Projet2\Projet2\bin\Debug\Projet2.exe.config
+E:\Projet2\Projet2\obj\Debug\Projet2.exe
+E:\Projet2\Projet2\obj\Debug\Projet2.pdb
+E:\Projet2\Projet2\bin\Debug\Projet2.exe
+E:\Projet2\Projet2\bin\Debug\Projet2.pdb
+E:\Projet2\Projet2\obj\Debug\Projet2.csprojResolveAssemblyReference.cache
+E:\Projet2\Projet2\obj\Debug\Projet2.FrmMenu.resources
+E:\Projet2\Projet2\obj\Debug\Projet2.FrmFactoriel.resources
+E:\Projet2\Projet2\obj\Debug\Projet2.FrmTables.resources
+E:\Projet2\Projet2\obj\Debug\Projet2.FormGame.resources
+E:\Projet2\Projet2\obj\Debug\Projet2.Properties.Resources.resources
+E:\Projet2\Projet2\obj\Debug\Projet2.csproj.GenerateResource.Cache
+C:\Users\DELL\OneDrive\Bureau\Projet2\Projet2\bin\Debug\Projet2.exe.config
+C:\Users\DELL\OneDrive\Bureau\Projet2\Projet2\obj\Debug\Projet2.exe
+C:\Users\DELL\OneDrive\Bureau\Projet2\Projet2\obj\Debug\Projet2.pdb
+C:\Users\DELL\OneDrive\Bureau\Projet2\Projet2\bin\Debug\Projet2.exe
+C:\Users\DELL\OneDrive\Bureau\Projet2\Projet2\bin\Debug\Projet2.pdb
+C:\Users\DELL\OneDrive\Bureau\Projet2\Projet2\obj\Debug\Projet2.csprojResolveAssemblyReference.cache
+C:\Users\DELL\OneDrive\Bureau\Projet2\Projet2\obj\Debug\Projet2.FrmMenu.resources
+C:\Users\DELL\OneDrive\Bureau\Projet2\Projet2\obj\Debug\Projet2.FrmFactoriel.resources
+C:\Users\DELL\OneDrive\Bureau\Projet2\Projet2\obj\Debug\Projet2.FrmTables.resources
+C:\Users\DELL\OneDrive\Bureau\Projet2\Projet2\obj\Debug\Projet2.FormGame.resources
+C:\Users\DELL\OneDrive\Bureau\Projet2\Projet2\obj\Debug\Projet2.Properties.Resources.resources
+C:\Users\DELL\OneDrive\Bureau\Projet2\Projet2\obj\Debug\Projet2.csproj.GenerateResource.Cache

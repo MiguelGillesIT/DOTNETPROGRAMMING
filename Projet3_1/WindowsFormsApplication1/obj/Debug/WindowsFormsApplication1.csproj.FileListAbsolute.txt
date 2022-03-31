@@ -7,6 +7,12 @@ c:\users\kouevidjin miguel\documents\visual studio 2012\Projects\WindowsFormsApp
 c:\users\kouevidjin miguel\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 c:\users\kouevidjin miguel\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 c:\users\kouevidjin miguel\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
-D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet3\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
-D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet3\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
-D:\PROJETS\M1_PROGRAMMATION.NET\DOTNETPROGRAMMING\Projet3\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\DELL\OneDrive\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\DELL\OneDrive\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\DELL\OneDrive\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\DELL\OneDrive\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\DELL\OneDrive\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\DELL\OneDrive\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\DELL\OneDrive\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CalculForm.resources
+C:\Users\DELL\OneDrive\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\DELL\OneDrive\Bureau\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
