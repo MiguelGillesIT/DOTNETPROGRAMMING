@@ -15,6 +15,8 @@ namespace Projet4
         public Form2()
         {
             InitializeComponent();
+            LstG4.AllowDrop = true;
+            LstD4.AllowDrop = true;
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -301,30 +303,23 @@ namespace Projet4
 
         private void LstG4_DragDrop(object sender, DragEventArgs e)
         {
-            LstG4.Items.Add(LstD4.SelectedItem);
-            LstD4.Items.Remove(LstD4.SelectedItem);
+            LstG4.Items.Add(e.Data.GetData(DataFormats.Text));
+            LstD4.Items.Remove(e.Data.GetData(DataFormats.Text));
         }
 
         private void LstD4_DragDrop(object sender, DragEventArgs e)
         {
-            LstD4.Items.Add(LstG4.SelectedItem);
-            LstG4.Items.Remove(LstG4.SelectedItem);
+            LstD4.Items.Add(e.Data.GetData(DataFormats.Text));
+            LstG4.Items.Remove(e.Data.GetData(DataFormats.Text));
 
         }
 
-        private void LstG4_DragOver(object sender, DragEventArgs e)
-        {
-            e.Effect = DragDropEffects.Move;
-        }
-
-        private void LstD4_DragOver(object sender, DragEventArgs e)
-        {
-            e.Effect = DragDropEffects.Move;
-        }
+       
 
         private void LstG4_MouseDown(object sender, MouseEventArgs e) {
-            if (LstG4.SelectedIndex != -1){
-                LstG4.DoDragDrop(LstG4.SelectedItem, DragDropEffects.Move);
+            if (LstG4.SelectedIndex != -1)
+            {
+                LstD4.DoDragDrop(LstG4.SelectedItem.ToString(), DragDropEffects.Copy);
             }
         }
 
@@ -332,7 +327,7 @@ namespace Projet4
         {
             if (LstD4.SelectedIndex != -1)
             {
-                LstD4.DoDragDrop(LstD4.SelectedItem, DragDropEffects.Move);
+                LstG4.DoDragDrop(LstD4.SelectedItem.ToString(), DragDropEffects.Copy);
             }
         }
 
@@ -380,6 +375,33 @@ namespace Projet4
                 LstD4.Items.Remove(y);
             }
         }
+
+        private void LstG4_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Text))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+            else {
+                e.Effect = DragDropEffects.None;
+            }
+
+        }
+
+        private void LstD4_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Text))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+            else
+            {
+                e.Effect = DragDropEffects.None;
+            }
+        }
+
+
+       
 
      }
 }

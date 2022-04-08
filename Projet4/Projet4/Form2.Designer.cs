@@ -28,17 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.BtnSupp4 = new System.Windows.Forms.Button();
             this.BtnVider4 = new System.Windows.Forms.Button();
@@ -80,119 +69,12 @@
             this.LstD1 = new System.Windows.Forms.ListBox();
             this.LstG1 = new System.Windows.Forms.ListBox();
             this.tabControl = new System.Windows.Forms.TabControl();
-            this.tabPage5.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Controls.Add(this.button1);
-            this.tabPage5.Controls.Add(this.button2);
-            this.tabPage5.Controls.Add(this.button3);
-            this.tabPage5.Controls.Add(this.textBox1);
-            this.tabPage5.Controls.Add(this.button4);
-            this.tabPage5.Controls.Add(this.button5);
-            this.tabPage5.Controls.Add(this.button6);
-            this.tabPage5.Controls.Add(this.button7);
-            this.tabPage5.Controls.Add(this.listBox1);
-            this.tabPage5.Controls.Add(this.listBox2);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(663, 469);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "1 er cas";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(94, 370);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 23);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Supprimer";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(192, 370);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(83, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Vider";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(192, 324);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(83, 23);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Ajouter";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(92, 326);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(85, 20);
-            this.textBox1.TabIndex = 6;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(308, 249);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(56, 42);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "<<";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(308, 191);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(56, 42);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "<";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(308, 127);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(56, 42);
-            this.button6.TabIndex = 3;
-            this.button6.Text = ">>";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(308, 65);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(56, 42);
-            this.button7.TabIndex = 2;
-            this.button7.Text = ">";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(383, 49);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(218, 251);
-            this.listBox1.TabIndex = 1;
-            // 
-            // listBox2
-            // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(69, 49);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(218, 251);
-            this.listBox2.TabIndex = 0;
             // 
             // tabPage4
             // 
@@ -254,6 +136,7 @@
             this.LstD4.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.LstD4.Size = new System.Drawing.Size(218, 251);
             this.LstD4.TabIndex = 21;
+            this.LstD4.DragEnter += new System.Windows.Forms.DragEventHandler(this.LstD4_DragEnter);
             // 
             // LstG4
             // 
@@ -263,6 +146,8 @@
             this.LstG4.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.LstG4.Size = new System.Drawing.Size(218, 251);
             this.LstG4.TabIndex = 20;
+            this.LstG4.DragEnter += new System.Windows.Forms.DragEventHandler(this.LstG4_DragEnter);
+            this.LstG4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.LstD4_MouseDown);
             // 
             // tabPage3
             // 
@@ -611,7 +496,6 @@
             this.tabControl.Controls.Add(this.tabPage2);
             this.tabControl.Controls.Add(this.tabPage3);
             this.tabControl.Controls.Add(this.tabPage4);
-            this.tabControl.Controls.Add(this.tabPage5);
             this.tabControl.Location = new System.Drawing.Point(25, 21);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
@@ -626,8 +510,6 @@
             this.Controls.Add(this.tabControl);
             this.Name = "Form2";
             this.Text = "Listes";
-            this.tabPage5.ResumeLayout(false);
-            this.tabPage5.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             this.tabPage3.ResumeLayout(false);
@@ -643,17 +525,6 @@
 
         #endregion
 
-        private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.Button BtnSupp3;
