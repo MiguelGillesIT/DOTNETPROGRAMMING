@@ -32,29 +32,29 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.fichierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allerÀToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.form2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.form3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nouveauCtrlNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ouvrirCtrlOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enregistrerSousCtrlSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitterCtrlXToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allerÀToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.form2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.form3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
@@ -90,6 +90,31 @@
             this.bindingNavigator1.TabIndex = 0;
             this.bindingNavigator1.Text = "bindingNavigator1";
             // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Ajouter nouveau";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(37, 22);
+            this.bindingNavigatorCountItem.Text = "de {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Nombre total d\'éléments";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Supprimer";
+            // 
             // bindingNavigatorMoveFirstItem
             // 
             this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -122,16 +147,9 @@
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Position actuelle";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(37, 22);
-            this.bindingNavigatorCountItem.Text = "de {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Nombre total d\'éléments";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // bindingNavigatorMoveNextItem
@@ -154,26 +172,8 @@
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Ajouter nouveau";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem.Text = "Supprimer";
             // 
             // dataGridView1
             // 
@@ -198,10 +198,6 @@
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
             // fichierToolStripMenuItem
             // 
             this.fichierToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -212,6 +208,38 @@
             this.fichierToolStripMenuItem.Name = "fichierToolStripMenuItem";
             this.fichierToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.fichierToolStripMenuItem.Text = "Fichier";
+            // 
+            // nouveauCtrlNToolStripMenuItem
+            // 
+            this.nouveauCtrlNToolStripMenuItem.Name = "nouveauCtrlNToolStripMenuItem";
+            this.nouveauCtrlNToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
+            this.nouveauCtrlNToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.nouveauCtrlNToolStripMenuItem.Text = "Nouveau";
+            this.nouveauCtrlNToolStripMenuItem.Click += new System.EventHandler(this.nouveauCtrlNToolStripMenuItem_Click);
+            // 
+            // ouvrirCtrlOToolStripMenuItem
+            // 
+            this.ouvrirCtrlOToolStripMenuItem.Name = "ouvrirCtrlOToolStripMenuItem";
+            this.ouvrirCtrlOToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.ouvrirCtrlOToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.ouvrirCtrlOToolStripMenuItem.Text = "Ouvrir";
+            this.ouvrirCtrlOToolStripMenuItem.Click += new System.EventHandler(this.ouvrirCtrlOToolStripMenuItem_Click);
+            // 
+            // enregistrerSousCtrlSToolStripMenuItem
+            // 
+            this.enregistrerSousCtrlSToolStripMenuItem.Name = "enregistrerSousCtrlSToolStripMenuItem";
+            this.enregistrerSousCtrlSToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.enregistrerSousCtrlSToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.enregistrerSousCtrlSToolStripMenuItem.Text = "Enregistrer sous";
+            this.enregistrerSousCtrlSToolStripMenuItem.Click += new System.EventHandler(this.enregistrerSousCtrlSToolStripMenuItem_Click);
+            // 
+            // quitterCtrlXToolStripMenuItem
+            // 
+            this.quitterCtrlXToolStripMenuItem.Name = "quitterCtrlXToolStripMenuItem";
+            this.quitterCtrlXToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
+            this.quitterCtrlXToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.quitterCtrlXToolStripMenuItem.Text = "Quitter ";
+            this.quitterCtrlXToolStripMenuItem.Click += new System.EventHandler(this.quitterCtrlXToolStripMenuItem_Click);
             // 
             // allerÀToolStripMenuItem
             // 
@@ -236,33 +264,9 @@
             this.form3ToolStripMenuItem.Text = "Form 3";
             this.form3ToolStripMenuItem.Click += new System.EventHandler(this.form3ToolStripMenuItem_Click);
             // 
-            // nouveauCtrlNToolStripMenuItem
+            // openFileDialog1
             // 
-            this.nouveauCtrlNToolStripMenuItem.Name = "nouveauCtrlNToolStripMenuItem";
-            this.nouveauCtrlNToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
-            this.nouveauCtrlNToolStripMenuItem.Text = "Nouveau                      Ctrl+N";
-            this.nouveauCtrlNToolStripMenuItem.Click += new System.EventHandler(this.nouveauCtrlNToolStripMenuItem_Click);
-            // 
-            // ouvrirCtrlOToolStripMenuItem
-            // 
-            this.ouvrirCtrlOToolStripMenuItem.Name = "ouvrirCtrlOToolStripMenuItem";
-            this.ouvrirCtrlOToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
-            this.ouvrirCtrlOToolStripMenuItem.Text = "Ouvrir                           Ctrl+O";
-            this.ouvrirCtrlOToolStripMenuItem.Click += new System.EventHandler(this.ouvrirCtrlOToolStripMenuItem_Click);
-            // 
-            // enregistrerSousCtrlSToolStripMenuItem
-            // 
-            this.enregistrerSousCtrlSToolStripMenuItem.Name = "enregistrerSousCtrlSToolStripMenuItem";
-            this.enregistrerSousCtrlSToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
-            this.enregistrerSousCtrlSToolStripMenuItem.Text = "Enregistrer sous          Ctrl+S";
-            this.enregistrerSousCtrlSToolStripMenuItem.Click += new System.EventHandler(this.enregistrerSousCtrlSToolStripMenuItem_Click);
-            // 
-            // quitterCtrlXToolStripMenuItem
-            // 
-            this.quitterCtrlXToolStripMenuItem.Name = "quitterCtrlXToolStripMenuItem";
-            this.quitterCtrlXToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
-            this.quitterCtrlXToolStripMenuItem.Text = "Quitter                         Ctrl+X";
-            this.quitterCtrlXToolStripMenuItem.Click += new System.EventHandler(this.quitterCtrlXToolStripMenuItem_Click);
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // Form1
             // 

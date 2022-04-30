@@ -168,7 +168,6 @@
             this.LblRes.Size = new System.Drawing.Size(146, 27);
             this.LblRes.TabIndex = 7;
             this.LblRes.Text = "Resultat: ";
-            this.LblRes.Click += new System.EventHandler(this.LblRes_Click);
             // 
             // BtnCE
             // 

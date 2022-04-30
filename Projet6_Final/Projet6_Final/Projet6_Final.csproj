@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{20E4D155-F02B-4644-94A0-0A1BC0F1B099}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Projet6_Final</RootNamespace>
+    <AssemblyName>Projet6_Final</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBStockDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBStockDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBStockDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBStockDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAjoutClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAjoutClient.Designer.cs">
+      <DependentUpon>FormAjoutClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAjouterFourn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAjouterFourn.Designer.cs">
+      <DependentUpon>frmAjouterFourn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAjouterProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAjouterProd.Designer.cs">
+      <DependentUpon>frmAjouterProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAjoutFacture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAjoutFacture.Designer.cs">
+      <DependentUpon>frmAjoutFacture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFindProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFindProd.Designer.cs">
+      <DependentUpon>frmFindProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListeClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListeClients.Designer.cs">
+      <DependentUpon>frmListeClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListeFacture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListeFacture.Designer.cs">
+      <DependentUpon>frmListeFacture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListeFournisseurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListeFournisseurs.Designer.cs">
+      <DependentUpon>FrmListeFournisseurs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListePro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListePro.Designer.cs">
+      <DependentUpon>frmListePro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAjoutClient.resx">
+      <DependentUpon>FormAjoutClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAjouterFourn.resx">
+      <DependentUpon>frmAjouterFourn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAjouterProd.resx">
+      <DependentUpon>frmAjouterProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAjoutFacture.resx">
+      <DependentUpon>frmAjoutFacture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFindProd.resx">
+      <DependentUpon>frmFindProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListeClients.resx">
+      <DependentUpon>frmListeClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListeFacture.resx">
+      <DependentUpon>frmListeFacture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListeFournisseurs.resx">
+      <DependentUpon>FrmListeFournisseurs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListePro.resx">
+      <DependentUpon>frmListePro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="DBStockDataSet.xsc">
+      <DependentUpon>DBStockDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBStockDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBStockDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBStockDataSet.xss">
+      <DependentUpon>DBStockDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBStockDataSet1.xsc">
+      <DependentUpon>DBStockDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DBStockDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBStockDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBStockDataSet1.xss">
+      <DependentUpon>DBStockDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
