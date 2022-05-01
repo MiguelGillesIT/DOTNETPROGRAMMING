@@ -123,6 +123,7 @@
             this.Controls.Add(this.BtnDel);
             this.Controls.Add(this.BtnQuit);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmListeFacture";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

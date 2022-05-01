@@ -371,6 +371,7 @@
             this.Controls.Add(this.telephoneTextBox);
             this.Controls.Add(this.clientBindingNavigator);
             this.Controls.Add(this.BtnQuit);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormAjoutClient";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

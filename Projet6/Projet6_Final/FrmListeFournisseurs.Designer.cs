@@ -193,6 +193,7 @@
             this.Controls.Add(this.BtnModify);
             this.Controls.Add(this.BtnDel);
             this.Controls.Add(this.BtnQuit);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmListeFournisseurs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

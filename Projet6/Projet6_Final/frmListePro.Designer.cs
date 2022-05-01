@@ -134,6 +134,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.cmbFourn);
             this.Controls.Add(this.label2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmListePro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

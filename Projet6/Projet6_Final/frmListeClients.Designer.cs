@@ -314,6 +314,7 @@
             this.Controls.Add(this.clientDataGridView);
             this.Controls.Add(this.clientBindingNavigator);
             this.Controls.Add(this.BtnQuit);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmListeClients";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
